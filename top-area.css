@@ -1,0 +1,49 @@
+#top-area{
+  padding: 200px 15px 90px 15px;
+  /* this code is to fill top-area with background image perfectly */
+  background: url(https://www.hillwalktours.com/walking-hiking-blog/wp-content/uploads/2017/08/wicklow-autumn-hiking.jpg); no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#top-area .profile-info .user-img{
+  padding: 10px;
+  display: inline-block;
+
+}
+#top-area .profile-info .user-img img{
+  border-radius:50%;
+  height: 150px;
+}
+#top-area .profile-info .user-details{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+}
+#top-area .profile-info .user-details h3{
+  color: #f4f2f2;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#top-area .profile-info .user-details a{
+  display: inline-block;
+  margin-left: -4px;
+  margin-right: 5%;
+  width: 45%;
+  text-align: center;
+  color: #f4f2f2;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255, .3);
+  /* hover background transition */
+  transition: background .4s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover{
+  background: #2196F3;
+}

@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "top-area.css";
+@import "header.css";
+@import "content-area.css";
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: sans-serif;
+}
+
+*{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2196F3;
+  transition: all .2s ease-in-out;
+}
+a:hover{
+  color: red;
+}
